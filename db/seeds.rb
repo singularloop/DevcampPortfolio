@@ -16,7 +16,9 @@ puts "3 topics created"
 10.times do |blog|
   Blog.create!(
     title: "My Blog Post #{blog}",
-    body:"content content content text text text pretend that this all makes sense content content dummy text.",
+    body:"Here i would talk about things i'm working on or about my life, but this blog 
+    is work in progress so instead i'm just gonna put some lovely dummy content here.
+    You really don't have to read this. It's only here because this blog is not completed yet.",
     topic_id: Topic.last.id
   )
 end
@@ -54,3 +56,12 @@ puts "10 blog posts created"
     
   
   puts "9 portfolio items created"
+
+  3.times do |technology|
+    Portfolio.last.technologies.create!(
+      name: "Technology #{technology}",
+      portfolio_id: Portfolio.last.id
+      )
+  end
+
+  puts "3 technologies created"
