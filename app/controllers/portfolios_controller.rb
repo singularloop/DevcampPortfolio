@@ -1,6 +1,7 @@
 class PortfoliosController < ApplicationController
   def index
     @portfolio_items = Portfolio.all
+    @page_title = "Portfolios"
   end
 
   def angular
@@ -26,6 +27,7 @@ class PortfoliosController < ApplicationController
   end
   def edit
     @portfolio_item = Portfolio.find(params[:id])
+    @page_title = "Edit"
   end
   
   def update
@@ -54,7 +56,6 @@ class PortfoliosController < ApplicationController
     #Redirect
     respond_to do |format|
       format.html { redirect_to portfolios_url, notice: 'Record was removed.' }
-    end
   end
   
   
@@ -67,6 +68,6 @@ class PortfoliosController < ApplicationController
                                       technologies_attributes: [:name]
                                       )
   end
-
+end
 
 end
