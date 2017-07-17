@@ -13,3 +13,7 @@
  *= require_tree .
  *= require_self
  */
+.top a {
+  background-color: orange;
+  color: white
+}
