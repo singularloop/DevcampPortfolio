@@ -59,3 +59,5 @@ gem 'devise', '~> 4.3'
 gem 'bootstrap', '~> 4.0.0.alpha6'
 
 gem 'devcamp_view_tool_avery', git: 'https://github.com/singularloop/devcamp_view_tool_avery'
+
+gem 'petergate', '~> 1.7', '>= 1.7.5'
