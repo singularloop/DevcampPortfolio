@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/singularloop/devcamp_view_tool_avery
+  revision: 612197436cb3b94a92e5a7e737a757230d50a186
+  specs:
+    devcamp_view_tool_avery (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -177,6 +183,7 @@ DEPENDENCIES
   bootstrap (~> 4.0.0.alpha6)
   byebug
   coffee-rails (~> 4.2)
+  devcamp_view_tool_avery!
   devise (~> 4.3)
   friendly_id (~> 5.1.0)
   jbuilder (~> 2.5)
