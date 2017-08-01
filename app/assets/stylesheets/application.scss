@@ -173,7 +173,7 @@ body {
   .mastfoot,
   .cover-container {
     width: 55rem;
-  }
+}
 }
 
 /*
@@ -183,6 +183,7 @@ body {
  .card-block {
    background-color: #aaf0d1;
    color: white;
+   text-align: left;
  }
  
  .btn-primary:hover,
@@ -193,3 +194,7 @@ body {
   background-color: #fff;
   border: .05rem solid #fff;
  }
+ 
+.auth-links a{
+  color: #fff;
+}
