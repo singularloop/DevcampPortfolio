@@ -56,17 +56,17 @@ h6, .h6 {
   position: relative;
   padding: 1rem;
   font-weight: 500;
-  color: #333;
+  color: #fff;
 }
 .nav-link:hover,
 .nav-link:focus {
-  color: #fff;
+  color: #999;
   background-color: transparent;
 }
 
 /* Active state gets a caret at the bottom */
 .nav-link.active {
-  color: #fff;
+  color: #999;
 }
 .nav-link.active:after {
   position: absolute;
@@ -170,3 +170,23 @@ h6, .h6 {
 .blog-footer p:last-child {
   margin-bottom: 0;
 }
+
+/*
+Custom Styles
+*/
+ .btn-primary:hover,
+ .btn-primary:focus,
+ .btn-primary{
+  color:#fff;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #aaf0d1;
+  border: .05rem solid #aaf0d1;
+ }
+ 
+ a:hover{
+   color:#aaf0d1;
+   
+ }
+ a{
+   color:#333;
+ }
