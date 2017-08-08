@@ -2,7 +2,7 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 @import "bootstrap";
-
+@import "font-awesome";
 /*
  * Globals
  */
@@ -183,10 +183,19 @@ Custom Styles
   border: .05rem solid #aaf0d1;
  }
  
+ .blog-post-title >a{
+  color:#333;
+}
+
  a:hover{
    color:#aaf0d1;
    
  }
  a{
-   color:#333;
+   color:#aaf0d1;
  }
+ 
+ .social-links li{
+   font-size: 2.0em;
+ }
+
