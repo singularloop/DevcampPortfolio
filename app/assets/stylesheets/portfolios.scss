@@ -73,5 +73,38 @@ footer p {
 .nav-masthead .nav-link:hover,
 .nav-masthead .nav-link:focus {
   border-bottom-color: rgba(255,255,255,.25);
-  color:#aaf0d1;
+    color:#aaf0d1;
 }
+
+ .btn-primary:hover,
+ .btn-primary:focus,
+ .btn-primary{
+   color: #fff;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #aaf0d1;
+  border: .05rem solid #fff;
+
+ }
+ 
+  .btn-secondary:hover,
+ .btn-secondary:focus,
+ .btn-secondary{
+   color: #aaf0d1;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #fff;
+  border: .05rem solid #aaf0d1;
+
+ }
+ 
+  .portfolio-title >a{
+    color:#333;
+}
+ 
+  a:hover{
+   color:#aaf0d1;
+   
+ }
+ 
+ a{
+   color:#aaf0d1;
+ }
